@@ -17,7 +17,7 @@ function Stopwatch(){
             running = false 
             endTime = new Date()
 
-            const seconds = (endtime.getTime() - startTime.getTime()) / 1000
+            const seconds = (endTime.getTime() - startTime.getTime()) / 1000
             duration += seconds
         }
     }
@@ -34,3 +34,5 @@ function Stopwatch(){
     })
 
 }
+
+const sw = new Stopwatch()
