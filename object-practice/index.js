@@ -72,7 +72,44 @@ this.reset = function(){
     duration = 0;
 }
 
+
 Object.defineProperty(this, 'duration', {
     get: function() {return duration;}
 })
+
 }
+
+const sw = new Stopwatch()
+
+
+
+// function StopWatch2(){
+//     let starTime , endTime , duration , running = 0;
+
+//     this.start = function(){
+//         if(running){
+//             throw new Error('Clock already started')
+//         } else{
+//             running = true
+//             starTime = new Date()
+//         }
+//     }
+
+//     this.stop = function() {
+//         if(!running){
+//             throw new Error('Clock is not running')
+//         } else{
+//             running = false
+//             endTime = new Date()
+
+//             seconds = (endTime.getTime() - starTime.getTime()) / 1000
+//             duration += seconds
+//         }
+//     }
+
+//     this.reset = fucntion(){
+//         this.starTime = null;
+//         this.endTime = null;
+//         this.duration = 0;
+//         this.running = false 
+    // }
