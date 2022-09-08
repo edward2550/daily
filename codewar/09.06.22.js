@@ -32,3 +32,4 @@ function scale(strIn,k,v)
   finalStr = finalStr.slice(1);
   return finalStr;
 }
+
