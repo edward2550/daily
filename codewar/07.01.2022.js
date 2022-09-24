@@ -6,4 +6,6 @@ function incrementString(str) {
       : lastDigit != 9
       ? body + (+lastDigit + 1)
       : incrementString(body) + "0";
+      sakfg
+      adg
   }
