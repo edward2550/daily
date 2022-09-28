@@ -10,4 +10,5 @@ function spinWords(sentence){
   result = sentenceArray.join(' ');
   });
 return result;
+//
 }
