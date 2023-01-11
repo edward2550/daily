@@ -1,4 +1,4 @@
-//write a function that takes in a argument - interger - print to the console Fizz when it is divisible by 3 , print out Buzz when divisible by 5, FizzBuzz when is divisble by both 3 and 5 
+//write a function that takes in a argument - interger - print to the console Fizz when it is divisible by 3 , print out Buzz when divisible by 5, FizzBuzz when is divisble by both 3 and 5 lsaldfaf
 
 function fizzBuzz(num){
     //loop through the length of the num and have condiditons 
